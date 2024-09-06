@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <img class="logo" src="IMAGENES/logo-alaburguer.png" alt="Logo Menu">
+            <h1 class="titulo-menu">ALA BURGUER</h1>
+        </div>
+    </header>
+
+    <!---->
+    <section class="contenedor-general">
+        <div class="contenedor-menu">
+            <button class="btn-carrito" id="btn-carrito" href=""><i class='bx bx-cart'></i></button>
+            <!--Carrito-->
+            <div class="menu-carrito" id="menu-carrito">
+                <button class="btn-closed " id="btn-closed"><i class='bx bx-x'></i></button>
+                <div class="carrito-container">
+                    <strong>Carrito</strong>
+                    <div id="carrito-vacio" class="carrito-vacio ">
+                        <h4>Tu carrito esta vacio</h4>
+                    </div>
+                    <div class="contenedor-productos d-none" id="contenedor-productos">
+                        
+                    </div>
+                    <button class="btn-enviar-pedido d-none" id="btn-enviar-pedido">Enviar Pedido</button>
+                </div>
+            <!--Termina Carrito-->
+            </div>
+            <!--Productos-->
+            <section class="section-productos" id="productos">
+                <div id="contenedor-burguers">
+                    <p class="nombre-secciones">BURGUERS</p>
+                </div>
+
+                <div id="contenedor-bebidas">
+                    <p class="nombre-secciones">BEBIDAS</p>
+                </div>
+
+                <div id="contenedor-frito">
+                    <p class="nombre-secciones">FRITURAS</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>

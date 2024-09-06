@@ -1,0 +1,92 @@
+{
+    "burguers": [
+        {
+            "id": "1",
+            "nombre": "American",
+            "descripcion": "Medallon 120gr (blend secreto), cheddar x4, bacon ahumado, alioli de berenjena ahumada, pepinillos.",
+            "precio": "$10900",
+            "imagen": "IMAGENES/american.png"
+        },
+        {
+            "id": "2",
+            "nombre": "Cheese Bacon",
+            "descripcion": "Medallon 120gr (blend secreto), cheddar x4, bacon ahumado",
+            "precio": "$10700",
+            "imagen":"IMAGENES/bacon-chese.jpg"
+        },
+        {
+            "id": "3",
+            "nombre": "Candy",
+            "descripcion": "Medallon 120gr (blend secreto), cheddar x4, bacon ahumado, cebolla caramelizada",
+            "precio": "$10700",
+            "imagen":"IMAGENES/candy.png"
+        },
+        {
+            "id": "4",
+            "nombre": "Crispy Onion",
+            "descripcion": "Medallon 120gr (blend secreto), cheddar x4, bacon ahumado, ali oli, mil islas, cebolla crispy, pepinillos (opcional)",
+            "precio": "$10900",
+            "imagen":"IMAGENES/crispy.png"
+        }
+    
+        
+    ],
+    "bebidas": [
+        {
+            "id": "5",
+            "nombre": "Coca Cola",
+            "precio": "$1000",
+            "imagen":"IMAGENES/cocabotella.jpg"
+        },
+        {
+            "id": "6",
+            "nombre": "Agua",
+            "precio": "$900",
+            "imagen":"IMAGENES/agua.jpg"
+        },
+        {
+            "id": "7",
+            "nombre": "Schweppes pomelo",
+            "precio": "$1000",
+            "imagen":"IMAGENES/swet.jpg"
+        },
+        {
+            "id": "8",
+            "nombre": "Aquarius Pera",
+            "precio": "$1000",
+            "imagen":"IMAGENES/aquarius.webp"
+        }
+        
+    ],
+    "frituras": [
+        {
+            "id": "9",
+            "nombre": "Papas Fritas",
+            "descripcion": "",
+            "precio": "$2000",
+            "imagen":"IMAGENES/papaFritas.webp"
+        },
+        {
+            "id": "10",
+            "nombre": "Papas con Cheddar y Bacon",
+            "descripcion": "",
+            "precio": "$3500",
+            "imagen":"IMAGENES/papasFritas.png"
+        },
+        {
+            "id": "11",
+            "nombre": "Nuggets",
+            "descripcion": "",
+            "precio": "$5000",
+            "imagen":"IMAGENES/nuggets.jpg"
+        },
+        {
+            "id": "12",
+            "nombre": "Tequeños",
+            "descripcion": "",
+            "precio": "$5000",
+            "imagen":"IMAGENES/tequeños.webp"
+        }
+        
+    ]
+}
